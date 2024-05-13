@@ -1,0 +1,17 @@
+.\src\ALU.vhd
+.\src\ALU_CONTROL.vhd
+.\src\control_unit.vhd
+.\src\Comp_package.vhd
+.\src\Data_memory.vhd
+.\src\instruction_memory.vhd
+.\src\Mips.vhd
+.\src\mohamed_hassan.vhd
+.\src\Multiplexer.vhd
+.\src\mux32bit.vhd
+.\src\Pc_Adder.vhd
+.\src\program_counter.vhd
+.\src\Register_File.vhd
+.\src\shift2left.vhd
+.\src\adder.vhd
+.\src\andgate.vhd
+.\src\TestBench.vhd

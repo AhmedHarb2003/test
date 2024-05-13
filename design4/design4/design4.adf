@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=design4
+
+[Library]
+design4=.\design4.lib
+
+[$LibMap$]
+design4=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu|behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ALU.vhd=-1
+/ALU_CONTROL.vhd=-1
+/control_unit.vhd=-1
+/Comp_package.vhd=-1
+/Data_memory.vhd=-1
+/instruction_memory.vhd=-1
+/Mips.vhd=-1
+/mohamed_hassan.vhd=-1
+/Multiplexer.vhd=-1
+/mux32bit.vhd=-1
+/Pc_Adder.vhd=-1
+/program_counter.vhd=-1
+/Register_File.vhd=-1
+/shift2left.vhd=-1
+/adder.vhd=-1
+/andgate.vhd=-1
+/TestBench.vhd=-1
+
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALU_CONTROL.vhd=VHDL Source Code
+.\src\control_unit.vhd=VHDL Source Code
+.\src\Comp_package.vhd=VHDL Source Code
+.\src\Data_memory.vhd=VHDL Source Code
+.\src\instruction_memory.vhd=VHDL Source Code
+.\src\Mips.vhd=VHDL Source Code
+.\src\mohamed_hassan.vhd=VHDL Source Code
+.\src\Multiplexer.vhd=VHDL Source Code
+.\src\mux32bit.vhd=VHDL Source Code
+.\src\Pc_Adder.vhd=VHDL Source Code
+.\src\program_counter.vhd=VHDL Source Code
+.\src\Register_File.vhd=VHDL Source Code
+.\src\shift2left.vhd=VHDL Source Code
+.\src\adder.vhd=VHDL Source Code
+.\src\andgate.vhd=VHDL Source Code
+.\src\TestBench.vhd=VHDL Source Code
+

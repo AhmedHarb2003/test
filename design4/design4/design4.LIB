@@ -1,0 +1,180 @@
+timestamp=1715636801035
+
+[adder]
+A/foradder=21|./src/adder.vhd|14|1*356994
+B/foradder=3*77858
+H/foradder=0*301455
+R=./src/adder.vhd|7
+V=0*86621
+
+[alu]
+A/behavioral=A/Behavioral 21|./src/ALU.vhd|16|1*295399
+B/behavioral=3*60218
+H/behavioral=0*273398
+R=./src/ALU.vhd|6
+V=0*2812
+
+[alu_control]
+A/behavioral=A/Behavioral 21|./src/ALU_CONTROL.vhd|15|1*297817
+B/behavioral=3*62844
+H/behavioral=0*274754
+R=./src/ALU_CONTROL.vhd|6
+V=0*8319
+
+[andgate]
+A/forandgate=21|./src/andgate.vhd|14|1*358444
+B/forandgate=3*78429
+H/forandgate=0*301768
+R=./src/andgate.vhd|7
+V=0*193883
+
+[comp_package]
+E=1*185675
+R=./src/Comp_package.vhd|4
+V=0*202720
+
+[controlunit]
+A/behavioral=A/Behavioral 21|./src/control_unit.vhd|19|1*299665
+B/behavioral=3*65338
+H/behavioral=0*275539
+R=./src/control_unit.vhd|4
+V=0*13499
+
+[datamemory]
+A/behavioral=A/Behavioral 21|./src/Data_memory.vhd|17|1*301873
+B/behavioral=3*70544
+H/behavioral=0*276849
+R=./src/Data_memory.vhd|6
+V=0*48389
+
+[instructionmemory]
+A/behavioral=A/Behavioral 21|./src/instruction_memory.vhd|12|1*311420
+B/behavioral=3*71814
+H/behavioral=0*280126
+R=./src/instruction_memory.vhd|6
+V=0*53963
+
+[mips]
+A/arch=21|./src/Mips.vhd|10|1*315711
+B/arch=3*72531
+H/arch=0*282753
+R=./src/Mips.vhd|4
+V=0*223266
+
+[mux]
+A/arch=21|./src/Multiplexer.vhd|12|1*339023
+B/arch=3*73479
+H/arch=0*294270
+R=./src/Multiplexer.vhd|4
+V=0*66225
+
+[mux32bit]
+A/mux32bit=21|./src/mux32bit.vhd|16|1*340455
+B/mux32bit=3*73950
+H/mux32bit=0*294555
+R=./src/mux32bit.vhd|6
+V=0*68742
+
+[programcounter]
+A/behavioral=A/Behavioral 21|./src/program_counter.vhd|15|1*343285
+B/behavioral=3*75010
+H/behavioral=0*295263
+R=./src/program_counter.vhd|6
+V=0*74269
+
+[programcounteradder]
+A/behavioral=A/Behavioral 21|./src/Pc_Adder.vhd|14|1*341910
+B/behavioral=3*74437
+H/behavioral=0*294873
+R=./src/Pc_Adder.vhd|7
+V=0*71518
+
+[registerfile]
+A/behavioral=A/Behavioral 21|./src/Register_File.vhd|23|1*344964
+B/behavioral=3*75811
+H/behavioral=0*295729
+R=./src/Register_File.vhd|6
+V=0*79569
+
+[shift2left]
+A/behavioral=A/Behavioral 21|./src/shift2left.vhd|12|1*355227
+B/behavioral=3*77213
+H/behavioral=0*301010
+R=./src/shift2left.vhd|5
+V=0*128074
+
+[signextender]
+A/behavioral=A/Behavioral 21|./src/mohamed_hassan.vhd|13|1*337476
+B/behavioral=3*72954
+H/behavioral=0*293870
+R=./src/mohamed_hassan.vhd|6
+V=0*63938
+
+[testbench]
+A/behavioral=A/Behavioral 21|./src/TestBench.vhd|10|1*359515
+B/behavioral=3*78846
+H/behavioral=0*302304
+R=./src/TestBench.vhd|6
+V=0*303201
+
+[~A]
+./src/ALU.vhd~ALU=0*0*416
+./src/ALU.vhd~BehavioralALU=0*274051*274687
+./src/ALU_CONTROL.vhd~ALU_Control=0*6290*6663
+./src/ALU_CONTROL.vhd~BehavioralALU_Control=0*274849*275456
+./src/Comp_package.vhd~Comp_package=0*194234*196928
+./src/Data_memory.vhd~BehavioralDataMemory=0*278981*280044
+./src/Data_memory.vhd~DataMemory=0*43630*44080
+./src/Mips.vhd~MIPS=0*222693*222883
+./src/Mips.vhd~archMIPS=0*290712*293807
+./src/Multiplexer.vhd~MUX=0*65010*65260
+./src/Multiplexer.vhd~archMUX=0*294353*294486
+./src/Pc_Adder.vhd~BehavioralProgramCounterAdder=0*294968*295175
+./src/Pc_Adder.vhd~ProgramCounterAdder=0*69968*70343
+./src/Register_File.vhd~BehavioralRegisterFile=0*298988*300924
+./src/Register_File.vhd~RegisterFile=0*75524*76100
+./src/TestBench.vhd~BehavioralTestbench=0*302581*302878
+./src/TestBench.vhd~Testbench=0*302085*302235
+./src/adder.vhd~adder=0*85167*85509
+./src/adder.vhd~foradderadder=0*301546*301699
+./src/andgate.vhd~andgate=0*192766*193058
+./src/andgate.vhd~forandgateandgate=0*301863*302010
+./src/control_unit.vhd~BehavioralControlUnit=0*275635*276765
+./src/control_unit.vhd~ControlUnit=0*10655*11126
+./src/instruction_memory.vhd~BehavioralInstructionMemory=0*281825*282657
+./src/instruction_memory.vhd~InstructionMemory=0*50218*50554
+./src/mohamed_hassan.vhd~BehavioralSignExtender=0*293965*294183
+./src/mohamed_hassan.vhd~SignExtender=0*62556*62847
+./src/mux32bit.vhd~mux32bit=0*67445*67707
+./src/mux32bit.vhd~mux32bitmux32bit=0*294646*294798
+./src/program_counter.vhd~BehavioralProgramCounter=0*295358*295639
+./src/program_counter.vhd~ProgramCounter=0*72591*72976
+./src/shift2left.vhd~BehavioralShift2Left=0*301105*301374
+./src/shift2left.vhd~Shift2Left=0*127122*127401
+ModifyID=473
+Version=73
+
+[~MFT]
+0=505|0design4.mgf|303201|207104
+1=122|1design4.mgf|359515|290285
+3=103|3design4.mgf|78846|60218
+
+[~U]
+adder=11|0*85918|0*86118
+alu=ALU 11|0*1829|0*2084
+alu_control=ALU_Control 11|0*7521|0*7735
+andgate=11|0*193440|0*193589
+comp_package=3||0*197003
+controlunit=ControlUnit 11|0*12510|0*12883
+datamemory=DataMemory 11|0*47429|0*47718
+instructionmemory=InstructionMemory 11|0*53267|0*53490
+mips=11|0*222942|0*223046
+mux=MUX 11|0*65610|0*65801
+mux32bit=11|0*68092|0*68301
+programcounter=ProgramCounter 11|0*73522|0*73751
+programcounteradder=ProgramCounterAdder 11|0*70811|0*71015
+registerfile=RegisterFile 11|0*78153|0*78537
+shift2left=11|0*127472|0*127645
+signextender=SignExtender 11|0*63324|0*63505
+testbench=Testbench 11|0*302957|0*303025
+

@@ -1,0 +1,438 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/adder.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\adder.vhd
+# Compile Entity "adder"
+# Compile Architecture "foradder" of Entity "adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Entity `Shift2Left' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Comp_package.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Comp_package.vhd
+# Compile Package "Comp_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/adder.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\adder.vhd
+# Compile Entity "adder"
+# Entity `adder' has been skipped - no difference detected.
+# Compile Architecture "foradder" of Entity "adder"
+# Error: COMP96_0019: adder.vhd : (18, 2): Keyword "end" expected.
+# Error: COMP96_0016: adder.vhd : (19, 3): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/adder.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\adder.vhd
+# Compile Entity "adder"
+# Entity `adder' has been skipped - no difference detected.
+# Compile Architecture "foradder" of Entity "adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0367: Mips.vhd : (82, 61): Improper array length. Actual length is 32. Expected length is 28.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: ELAB1_0028: Mips.vhd : (84, 0): Entity port length is 32. S_out length is 28.
+# Error: COMP96_0367: Mips.vhd : (84, 31): Improper array length. Actual length is 32. Expected length is 26.
+# Error: COMP96_0367: Mips.vhd : (84, 41): Improper array length. Actual length is 32. Expected length is 28.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Error: COMP96_0015: shift2left.vhd : (21, 2): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Entity `Shift2Left' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: ELAB1_0028: Mips.vhd : (84, 0): Entity port length is 32. S_IN length is 26.
+# Error: ELAB1_0028: Mips.vhd : (84, 0): Entity port length is 32. S_out length is 28.
+# Error: COMP96_0367: Mips.vhd : (84, 31): Improper array length. Actual length is 32. Expected length is 26.
+# Error: COMP96_0367: Mips.vhd : (84, 41): Improper array length. Actual length is 32. Expected length is 28.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Entity `Shift2Left' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: ELAB1_0028: Mips.vhd : (84, 0): Entity port length is 32. S_IN length is 26.
+# Error: ELAB1_0028: Mips.vhd : (84, 0): Entity port length is 32. S_out length is 28.
+# Error: COMP96_0367: Mips.vhd : (84, 31): Improper array length. Actual length is 32. Expected length is 26.
+# Error: COMP96_0367: Mips.vhd : (84, 41): Improper array length. Actual length is 32. Expected length is 28.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Comp_package.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Comp_package.vhd
+# Compile Package "Comp_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shift2left.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Entity `Shift2Left' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0367: Mips.vhd : (86, 32): Improper array length. Actual length is 26. Expected length is 32.
+# Error: COMP96_0367: Mips.vhd : (86, 61): Improper array length. Actual length is 28. Expected length is 32.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0115: Mips.vhd : (86, 32): Actual is not a globally static expression.
+# Error: COMP96_0367: Mips.vhd : (86, 68): Improper array length. Actual length is 28. Expected length is 32.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0015: Mips.vhd : (45, 24): ':' expected.
+# Error: COMP96_0018: Mips.vhd : (45, 26): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0019: Mips.vhd : (47, 1): Keyword "begin" expected.
+# Error: COMP96_0016: Mips.vhd : (47, 18): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0367: Mips.vhd : (94, 49): Improper array length. Actual length is 28. Expected length is 32.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0367: Mips.vhd : (93, 49): Improper array length. Actual length is 28. Expected length is 32.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0100: Mips.vhd : (101, 54): Actual parameter type in port map does not match the port formal type "s".
+# Error: COMP96_0100: Mips.vhd : (103, 59): Actual parameter type in port map does not match the port formal type "s".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0018: Mips.vhd : (101, 54): Identifier expected.
+# Error: COMP96_0015: Mips.vhd : (101, 55): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/andgate.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\andgate.vhd
+# Compile Entity "andgate"
+# Error: COMP96_0111: andgate.vhd : (12, 5): Labels do not match.
+# Compile Architecture "forandgate" of Entity "andgate"
+# Error: COMP96_0056: andgate.vhd : (14, 1): Cannot find referenced entity declaration "andgate".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/andgate.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "forandgate" of Entity "andgate"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Comp_package.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Comp_package.vhd
+# Compile Package "Comp_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0015: Mips.vhd : (101, 5): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Error: COMP96_0100: Mips.vhd : (58, 37): Actual parameter type in port map does not match the port formal type "Reset".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Mips.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/control_unit.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\control_unit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/alu.vhd $DSN/src/alu_control.vhd $DSN/src/control_unit.vhd $DSN/src/comp_package.vhd $DSN/src/data_memory.vhd $DSN/src/instruction_memory.vhd $DSN/src/mips.vhd $DSN/src/mohamed_hassan.vhd $DSN/src/multiplexer.vhd $DSN/src/mux32bit.vhd $DSN/src/pc_adder.vhd $DSN/src/program_counter.vhd $DSN/src/register_file.vhd $DSN/src/shift2left.vhd $DSN/src/adder.vhd $DSN/src/andgate.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\ALU_CONTROL.vhd
+# Compile Entity "ALU_Control"
+# Entity `ALU_Control' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_Control"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\control_unit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Comp_package.vhd
+# Compile Package "Comp_package"
+# Package `Comp_package' has been skipped - no difference detected.
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Data_memory.vhd
+# Compile Entity "DataMemory"
+# Entity `DataMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "DataMemory"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\instruction_memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\mohamed_hassan.vhd
+# Compile Entity "SignExtender"
+# Entity `SignExtender' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "SignExtender"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Multiplexer.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MUX"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\mux32bit.vhd
+# Compile Entity "mux32bit"
+# Entity `mux32bit' has been skipped - no difference detected.
+# Compile Architecture "mux32bit" of Entity "mux32bit"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Pc_Adder.vhd
+# Compile Entity "ProgramCounterAdder"
+# Entity `ProgramCounterAdder' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ProgramCounterAdder"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\program_counter.vhd
+# Compile Entity "ProgramCounter"
+# Entity `ProgramCounter' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ProgramCounter"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Register_File.vhd
+# Compile Entity "RegisterFile"
+# Entity `RegisterFile' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\shift2left.vhd
+# Compile Entity "Shift2Left"
+# Entity `Shift2Left' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift2Left"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\adder.vhd
+# Compile Entity "adder"
+# Entity `adder' has been skipped - no difference detected.
+# Compile Architecture "foradder" of Entity "adder"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\andgate.vhd
+# Compile Entity "andgate"
+# Entity `andgate' has been skipped - no difference detected.
+# Compile Architecture "forandgate" of Entity "andgate"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+asim alu behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2420 kB (elbread=1070 elab2=301 kernel=1049 sdf=0)
+# 12:21 AM, Tuesday, May 14, 2024
+# Simulation has been initialized
+# Selected Top-Level: alu (behavioral)
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/control_unit.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\control_unit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim alu behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2420 kB (elbread=1070 elab2=301 kernel=1049 sdf=0)
+# 12:24 AM, Tuesday, May 14, 2024
+# Simulation has been initialized
+# Selected Top-Level: alu (behavioral)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/alu.vhd $DSN/src/alu_control.vhd $DSN/src/control_unit.vhd $DSN/src/comp_package.vhd $DSN/src/data_memory.vhd $DSN/src/instruction_memory.vhd $DSN/src/mips.vhd $DSN/src/mohamed_hassan.vhd $DSN/src/multiplexer.vhd $DSN/src/mux32bit.vhd $DSN/src/pc_adder.vhd $DSN/src/program_counter.vhd $DSN/src/register_file.vhd $DSN/src/shift2left.vhd $DSN/src/adder.vhd $DSN/src/andgate.vhd $DSN/src/testbench.vhd
+# Compile...
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\ALU_CONTROL.vhd
+# Compile Entity "ALU_Control"
+# Entity `ALU_Control' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_Control"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\control_unit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Comp_package.vhd
+# Compile Package "Comp_package"
+# Package `Comp_package' has been skipped - no difference detected.
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Data_memory.vhd
+# Compile Entity "DataMemory"
+# Entity `DataMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "DataMemory"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\instruction_memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Mips.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MIPS"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\mohamed_hassan.vhd
+# Compile Entity "SignExtender"
+# Entity `SignExtender' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "SignExtender"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\Multiplexer.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "arch" of Entity "MUX"
+# File: d:\programs\ActiveHDL\Active-HDL\design4\design4\src\mux32bit.vhd
+# Compile Entity "mux32bit"
+# Entity `mux32bit' has been skipped - no difference detected.
+# Compile Architecture "mux32bit" of Entity "mux32bit"
+# File: d:\programs

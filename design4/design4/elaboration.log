@@ -1,0 +1,33 @@
+elbread.dll ver. 1.0.5.365 Tue May 14 00:26:12 2024
+
+
+---------------------------------------------
+Entity               | Architecture | Library
+---------------------------------------------
+mips                 | arch         | design4
+instructionmemory    | behavioral   | design4
+programcounter       | behavioral   | design4
+controlunit          | behavioral   | design4
+mux                  | arch         | design4
+registerfile         | behavioral   | design4
+signextender         | behavioral   | design4
+mux32bit             | mux32bit     | design4
+alu_control          | behavioral   | design4
+alu                  | behavioral   | design4
+datamemory           | behavioral   | design4
+programcounteradder  | behavioral   | design4
+shift2left           | behavioral   | design4
+adder                | foradder     | design4
+andgate              | forandgate   | design4
+---------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+comp_package        | design4
+numeric_std         | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------
